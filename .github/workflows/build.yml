@@ -58,7 +58,7 @@ jobs:
             python: "3.12"
             os: ubuntu-latest
             dependency_constraints: '"pandas>=2" "numpy>=2"'
-          - SPARK_VERSION: "4.0.0"
+          - SPARK_VERSION: "4.1.0"
             HADOOP_VERSION: "3"
             JAVA_VERSION: "17"
             python: "3.13"
